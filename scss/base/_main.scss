@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: rem(13);
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+  padding: 1rem;
+  background-color: lightblue;
+}
+
+li:hover {
+  background-color: red;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
