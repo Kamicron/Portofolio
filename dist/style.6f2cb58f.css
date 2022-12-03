@@ -361,6 +361,10 @@ body {
   line-height: 1.6;
 }
 
+.wrapper {
+  background-color: aqua;
+}
+
 a {
   text-decoration: none;
 }
@@ -379,6 +383,8 @@ ul {
   display: flex;
   flex-direction: row;
   gap: 5px;
+  margin-top: 0;
+  padding-top: 1rem;
 }
 
 /*# sourceMappingURL=/style.6f2cb58f.css.map */
